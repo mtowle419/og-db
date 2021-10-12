@@ -1,8 +1,9 @@
-require "og/db/version"
+require "og-db/version"
+require "sequel"
 
-module Og
-  module Db
+
+
+module OGDB
     class Error < StandardError; end
     # Your code goes here...
-  end
 end

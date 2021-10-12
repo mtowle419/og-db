@@ -1,6 +1,11 @@
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Specify your gem's dependencies in og-db.gemspec
-gemspec
+group(:development) do
+	gem "bundler", "~> 2.2"
+	gem "rspec", "~> 3.10"
+	gem "rake", "~> 13.0"
+end
+
+gem "sequel", "~> 5.4"
+
