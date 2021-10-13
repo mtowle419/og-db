@@ -7,5 +7,4 @@ group(:development) do
 	gem "rake", "~> 13.0"
 end
 
-gem "sequel", "~> 5.4"
-
+gem "sequel", "~> 5.4", :require => true
